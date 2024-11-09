@@ -92,7 +92,7 @@ Provides the voxel count for positive cortical activation at a minimal threshold
 | `comparison` | Digits compared for overlapping activation (D1 = thumb, D2 = index finger, etc.) |
 | `volume_a`   | Voxel count for the first digit                              |
 | `volume_b`   | Voxel count for the second digit                             |
-| `overlap`    | Voxel count for both digits activated simultaneously         |
+| `overlap`    | Voxel count for the intersection between volume_a and volume_b |
 
 ---
 
