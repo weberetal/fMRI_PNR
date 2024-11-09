@@ -11,13 +11,13 @@ The dataset is organised in a hierarchical structure that groups files by partic
     - **`fMRI` Folder:** Contains data on cortical activation and representation distances.
       - `distance.csv`: Representational distances in feature space for each participant.
       - `overlap.csv`: Overlap of cortical activation in voxels for each digit pair.
-    - **`locognosia` Folder:** Contains touch localisation data (already published in slightly different form at: https://doi.org/10.17605/OSF.IO/QBRYZ (added here for convenience)). Only present for participants who underwent touch localization testing. Contains:
+    - **`locognosia` Folder:** Contains touch localisation data (already published in a slightly different form at: https://doi.org/10.17605/OSF.IO/QBRYZ (added here for convenience)). Only present for participants who underwent touch localization testing. Contains:
       - `absolute_error.csv`: Localization error data for each trial.
       - `misreferrals.csv`: Data on instances where a stimulus was misreferred to a different digit or the palm.
 
 ### File Contents
 
-Each file in the dataset includes data for each participant identified by a unique `subject` ID, along with specific information relevant to each measurement type. Trials were conducted on either the left or right hand, as specified in each file where relevant. Digits are consistently coded as follows:
+Each file in the dataset includes data for each participant identified by a unique `subject` ID and specific information relevant to each measurement type. Trials were conducted on either the left or right hand, as specified in each file where relevant. Digits are consistently coded as follows:
 
 - **D1** = thumb  
 - **D2** = index finger  
@@ -25,7 +25,7 @@ Each file in the dataset includes data for each participant identified by a uniq
 - **D4** = ring finger  
 - **D5** = little finger  
 
-**Note:** For the `fMRI` folder, all activation data is taken from the contralateral hemisphere (right hemisphere for the left hand and vice versa).
+**Note:** All activation data is taken from the contralateral hemisphere (right hemisphere for the left hand and vice versa) for the fMRI folder.
 
 ## File Descriptions
 
@@ -106,7 +106,7 @@ Demographic and group data for each participant, including injury information fo
 | Column Name         | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
 | `sex`               | Self-identified sex (female or male)                         |
-| `handedness`        | Handedness (left or right handed) according to the Waterloo Handedness Questionnaire |
+| `handedness`        | Handedness (left- or right-handed) according to the Waterloo Handedness Questionnaire |
 | `age_at_testing`    | Age at testing (years)                                       |
 | `group`             | Participant group (patient or control)                       |
 | `injured_hand`      | Hand affected by nerve repair (left, right, or none for controls) |
