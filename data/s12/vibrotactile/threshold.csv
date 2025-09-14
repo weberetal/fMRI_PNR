@@ -1,0 +1,11 @@
+subject,hand,digit,median_threshold
+12,left,D1,70
+12,left,D2,60
+12,left,D3,65
+12,left,D4,60
+12,left,D5,65
+12,right,D1,75
+12,right,D2,50
+12,right,D3,70
+12,right,D4,80
+12,right,D5,55
