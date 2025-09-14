@@ -1,0 +1,11 @@
+subject,hand,hemisphere,fold,correlation_coefficient
+22,left,right,1,0.8489918
+22,left,right,2,0.1834259
+22,left,right,3,0.6613666
+22,left,right,4,0.6373022
+22,left,right,5,0.6822457
+22,right,left,1,0.6874336
+22,right,left,2,-0.2857461
+22,right,left,3,0.7769507
+22,right,left,4,0.1661531
+22,right,left,5,0.2782266
