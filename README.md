@@ -70,6 +70,7 @@ Contains data of the %BOLD signal change (BSC) in form of the contrast of parame
 | `subject`           | Participant ID                                               |
 | `hand`              | Hand stimulated (left or right)                              |
 | `digit`             | Digits compared (D1 = thumb, D2 = index finger, etc.)        |
+| `hemisphere`        | Hemisphere data is taken from (left or right)                |
 | `voxel_count`       | Dissimilarity measure of functional representations between the digits |
 | `min`               | Minimum COPE value                                           |
 | `ten_percentile`    | 10th percentile of the COPE value                            |
